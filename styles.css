@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    letter-spacing: 1.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-image: url(img/background.jpeg);
+    background-size: 100%;
+    background-repeat: none;
+    
+}
+
+.container {
+    display: flex;
+}
+
+h2 {
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    padding: 50px 20px 0px;
+}
+
+
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 0;
+    transition: box-shadow .3s ease-in-out;
+    border-radius: 5px;
+    
+    
+}
+
+li:hover {
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+}
+
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    padding: 9px 146px;
+    margin-bottom: 80px;
+    height: 145px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, .2);
+
+}
+
+.logo img {
+    padding: 35px 4px;
+    width: 250px;
+}
+
+
+
+.quiz {
+    width: 800px;
+    height: 500px;
+    background-color: rgba(1000, 1000, 1000, .8);
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+    
+}
+
+
+
+.slut {
+    width: 800px;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+}
+
+.slut h3 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    
+}
+
+.a5 h3 {
+    padding-top: 150px;
+}
+.a5 p {
+    padding-bottom: 100px;
+}
+
+
+
+.a1, .a2, .a3, .a4, .a5 button {
+    margin-top: 100px;
+}
+
+
+
+.btn {
+    margin-top: 160px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    height: 75px;
+    border: none;
+    background-color: goldenrod;
+    font-size: 25px;
+    transition: height .3s;
+}
+
+.btn:hover {
+    height: 100px;
+}
+
+
+/* Display værdier */
+
+.quizStart {
+    display: block;  
+}
+
+.alder {
+    display: none;
+}
+
+.q1 {
+    display: none;
+}
+
+.a1 {
+    display: none;
+}
+
+.q2 {
+    display: none;
+}
+
+.a2 {
+    display: none;
+}
+
+.q3 {
+    display: none;
+}
+
+.a3 {
+    display: none;
+}
+
+.q4 {
+    display: none;
+}
+
+.a4 {
+    display: none;
+}
+
+.q5 {
+    display: none;
+}
+
+.a5 {
+    display: none;
+}
+
+.slut {
+    display: none;
+}

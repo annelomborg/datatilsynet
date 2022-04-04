@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Datatilsynet quiz</title>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="https://www.datatilsynet.dk/"><img src="img/logo.png" alt="datatilsynet logo"></a>
+        </div>
+        <div class="nav">
+        </div>
+    </header>
+
+    <div class="container">
+        
+        
+        <div class="quiz">
+
+            <div class="quizStart">
+                <h2>Datatilsynet quiz</h2>
+                <p>Quizzen er henvendt til dig, der som forbruger gerne vil vide mere om, hvad Datatilsynet laver.</p>
+                <button class="btn" onclick="start()">Start quizzen</button>
+            </div>
+        
+        
+
+            <div class="alder">
+                <h3>I hvilken aldersgruppe er du?</h3>
+                <ul class="option1">
+                    <li>15-20</li>
+                    <li>21-30</li>
+                    <li>31-40</li>
+                    <li>41-50</li>
+                </ul>
+            </div>
+
+            <div class="q1"> 
+                <h3>Hvad tror du, at Datatilsynet laver?</h3>
+                <ul class="option2">
+                    <li>Undersøger, hvordan du færdes på nettet</li>
+                    <li>Undersøger om rettighederne for persondata overholdes på nettet</li>
+                    <li>Undersøger om folk betaler det rigtige for en vare på nettet</li>
+                </ul>
+            </div>
+
+            <div class="a1">
+                <h3>Korrekt svar</h3>
+                <p>b: Undersøger om rettighederne for persondata overholdes på nettet</p>
+                <button class="btn" onclick="spørgsmål2()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q2"> 
+                <h3>Hvad kan du klage over til Datatilsynet?</h3>
+                <ul class="option3">
+                    <li>Andres behandling af dine personoplysninger</li>
+                    <li>Andres kommentarer om dig på sociale medier</li>
+                    <li>Hjemmesider på nettet der ikke virker godt nok</li>
+                </ul>
+            </div>
+            <div class="a2">
+                <h3>Korrekt svar</h3>
+                <p>a: Andres behandling af dine personoplysninger</p>
+                <button class="btn" onclick="spørgsmål3()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q3"> 
+                <h3>Hvor længe må en virksomhed gemme din jobansøgning?</h3>
+                <ul class="option4">
+                    <li>Op til 5 år</li>
+                    <li>Op til 3 år</li>
+                    <li>Op til 8 år</li>
+                </ul>
+            </div>
+            <div class="a3">
+                <h3>Korrekt svar</h3>
+                <p>b: Op til 3 år</p>
+                <button class="btn" onclick="spørgsmål4()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q4"> 
+                <h3>Må Datatilsynet uddele bøder for lovovertrædelser/misbrug af personoplysninger på nettet?</h3>
+                <ul class="option5">
+                    <li>Ja</li>
+                    <li>Nej</li>
+                </ul>
+            </div>
+            <div class="a4">
+                <h3>Korrekt svar</h3>
+                <p>a: Ja</p>
+                <button class="btn" onclick="spørgsmål5()">Næste spørgsmål</button>
+            </div>
+
+            <div class="q5"> 
+                <h3>Hvad står GDPR for?</h3>
+                <ul class="option6">
+                    <li>General Data Preparation Regulation</li>
+                    <li>Gender Data Protection Regulation</li>
+                    <li>General Data Protection Regulation</li>
+                </ul>
+            </div>
+            <div class="a5">
+                <h3>Korrekt svar</h3>
+                <p>c: General Data Protection Regulation</p>
+                <button class="btn" onclick="tak()">Afslut quiz</button>
+            </div>
+
+            <div class="slut">
+                <h3>Tak for din deltagelse!</h3>
+                <button class="btn" onclick="afslut()">Til forsiden</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
